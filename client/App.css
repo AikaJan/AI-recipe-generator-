@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+
+  margin: 5px auto;
+  padding-bottom: 20px;
+}
+
+.recipe-container {
+  opacity: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f9eae0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-container input {
+  width: 80%;
+  margin-right: 15px;
+}
+
+.bottom-container {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2px;
+  width: 100%;
+}
+
+.recipe-text {
+  width: 40%;
+  background-color: #f9eae0;
+  max-width: 100%;
+  padding: 20px;
+  margin: 2px;
+  opacity: 75%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
